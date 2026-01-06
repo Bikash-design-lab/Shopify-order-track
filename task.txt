@@ -1,0 +1,17 @@
+Here is the question:
+ 
+ 
+Develop a Shopify app that subscribes to the Order Create webhook at the time of merchant installation. 
+Whenever a customer places an order on the store, the app should capture the event and store only the Order ID in a database (Prisma or any database of your choice).
+The app should include a Dashboard accessible to the merchant. 
+When the merchant visits the dashboard, the app must retrieve the stored Order IDs from the database and query Shopify to fetch the corresponding order details, including:
+Order number
+Number of line items
+Total amount paid by the customer
+These details should be displayed in a structured table format.
+ 
+Bonus :
+Implement pagination in the Shopify app dashboard to display 10 orders per page.
+
+
+user -> order created 
